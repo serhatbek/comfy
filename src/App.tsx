@@ -17,6 +17,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
     path: '/comfy/',
+
     element: <HomeLayout />,
     errorElement: <Error />,
     children: [
