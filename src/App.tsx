@@ -17,13 +17,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
     path: '/comfy/',
-
     element: <HomeLayout />,
     errorElement: <Error />,
     children: [
       { index: true, element: <Landing /> },
       { path: 'products', element: <Products /> },
       { path: 'products/:id', element: <SingleProduct /> },
+
       { path: 'cart', element: <Cart /> },
       { path: 'about', element: <About /> },
       { path: 'checkout', element: <Checkout /> },
