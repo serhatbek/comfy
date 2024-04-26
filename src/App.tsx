@@ -23,7 +23,6 @@ const router = createBrowserRouter([
       { index: true, element: <Landing /> },
       { path: 'products', element: <Products /> },
       { path: 'products/:id', element: <SingleProduct /> },
-
       { path: 'cart', element: <Cart /> },
       { path: 'about', element: <About /> },
       { path: 'checkout', element: <Checkout /> },
