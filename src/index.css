@@ -65,16 +65,12 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
-
-<<<<<<< HEAD
 @layer components {
   .align-element {
     @apply mx-auto max-w-6xl px-8;
   }
 }
 
-=======
->>>>>>> e151fbe (setting up redux)
 @layer base {
   * {
     @apply border-border;
