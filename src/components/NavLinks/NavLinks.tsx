@@ -14,6 +14,7 @@ const NavLinks = () => {
                   isActive ? 'text-primary' : ''
                 }`;
               }}
+              end
             >
               {link.label}
             </NavLink>
