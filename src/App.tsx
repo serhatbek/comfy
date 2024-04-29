@@ -29,8 +29,8 @@ const router = createBrowserRouter([
       { path: 'orders', element: <Orders /> },
     ],
   },
-  { path: '/comfy/login', element: <Login /> },
-  { path: '/comfy/register', element: <Register /> },
+  { path: '/comfy/login', element: <Login />, errorElement: <Error /> },
+  { path: '/comfy/register', element: <Register />, errorElement: <Error /> },
 ]);
 
 const App = () => {
