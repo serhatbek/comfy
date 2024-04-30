@@ -6,3 +6,8 @@ export { default as NavLinks } from './NavLinks/NavLinks';
 export { default as ModeToggle } from './ModeToggle/ModeToggle';
 export { default as CartButton } from './CartButton/CartButton';
 export { default as ErrorElement } from './ErrorElement/ErrorElement';
+export { default as Hero } from './Hero/Hero';
+export { default as HeroCarousel } from './HeroCarousel/HeroCarousel';
+export { default as FeaturedProducts } from './FeaturedProducts/FeaturedProducts';
+export { default as SectionTitle } from './SectionTitle/SectionTitle';
+export { default as ProductsGrid } from './ProductsGrid/ProductsGrid';

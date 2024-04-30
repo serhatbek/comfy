@@ -1,7 +1,12 @@
-import React from 'react';
+import { FeaturedProducts, Hero } from '../../components';
 
 const Landing = () => {
-  return <div>Landing</div>;
+  return (
+    <>
+      <Hero />
+      <FeaturedProducts />
+    </>
+  );
 };
 
 export default Landing;
