@@ -9,7 +9,7 @@ export const formatAsDollars = (price: string | number): string => {
 export const formatAsTurkishLira = (price: string | number): string => {
   const liraAmount = new Intl.NumberFormat('tr-Tr', {
     style: 'currency',
-    currency: 'Lira',
+    currency: 'TRY',
   }).format(Number(price) / 100);
   return liraAmount;
 };
