@@ -12,11 +12,7 @@ const ProductsList = () => {
         const liraAmount = formatAsTurkishLira(price);
         // console.log(product);
         return (
-          <Link
-            to={`/comfy/products/${product.id}`}
-            key={product.id}
-            className=''
-          >
+          <Link to={`/comfy/products/${product.id}`} key={product.id}>
             <Card>
               <CardContent className='p-8 gap-y-4 grid md:grid-cols-3 '>
                 <img
