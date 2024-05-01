@@ -16,6 +16,7 @@ import {
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import { loader as landingLoader } from './pages/Landing/Landing';
+import { loader as productsLoader } from './pages/Products/Products';
 
 const router = createBrowserRouter([
   {
@@ -26,12 +27,13 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        errorElement: <ErrorElement />,
         loader: landingLoader,
+        errorElement: <ErrorElement />,
       },
       {
         path: 'products',
         element: <Products />,
+        loader: productsLoader,
         errorElement: <ErrorElement />,
       },
       {
