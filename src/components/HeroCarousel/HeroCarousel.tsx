@@ -1,3 +1,4 @@
+import Autoplay from 'embla-carousel-autoplay';
 import {
   Carousel,
   CarouselContent,
@@ -17,7 +18,13 @@ const carouselImages = [hero1, hero2, hero3, hero4];
 const HeroCarousel = () => {
   return (
     <div className='hidden lg:block'>
-      <Carousel>
+      <Carousel
+        plugins={[
+          Autoplay({
+            delay: 4000,
+          }),
+        ]}
+      >
         <CarouselContent>
           {carouselImages?.map((image, index) => (
             <CarouselItem key={index}>
