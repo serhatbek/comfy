@@ -10,7 +10,7 @@ const ProductsList = () => {
       {products?.map((product) => {
         const { title, price, image, company } = product.attributes;
         const liraAmount = formatAsTurkishLira(price);
-        console.log(product);
+        // console.log(product);
         return (
           <Link
             to={`/comfy/products/${product.id}`}
